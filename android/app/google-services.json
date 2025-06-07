@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "691205730212",
+    "firebase_url": "https://fireflutter-bf197-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fireflutter-bf197",
+    "storage_bucket": "fireflutter-bf197.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691205730212:android:4fc6702bd7c9cbb2591b31",
+        "android_client_info": {
+          "package_name": "com.example.fireflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAwjgDQqOke1Kk56YPmd7owNWouFmefsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

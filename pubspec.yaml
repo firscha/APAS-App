@@ -1,0 +1,56 @@
+name: aquaponics_automation_system
+description: "Sistem Otomatisasi dan Monitoring Akuaponik."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  firebase_core: ^2.32.0
+  firebase_database: ^10.5.7
+  firebase_core_web: ^2.10.0
+  flutter:
+    sdk: flutter
+  mjpeg_view: ^1.0.1
+  cupertino_icons: ^1.0.8
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_aplikasi.png
+    - assets/images/logo_splash.png
+    - assets/images/pakan_ikan.png
+    - assets/images/profile.png
+    - assets/images/tanaman.png
+    - assets/images/ikan.png
+    - assets/images/sensor.png
+
+  fonts:
+    - family: ArialRounded
+      fonts:
+        - asset: assets/fonts/arialroundedmtbold.ttf
+
+flutter_native_splash:
+  color: "#ffffff" # background color
+  image: assets/images/logo_splash.png
+  android_12:
+    image: assets/images/logo_splash.png
+    color: "#ffffff"
+  ios: true
+  android: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_aplikasi.png"
